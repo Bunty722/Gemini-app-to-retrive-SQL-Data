@@ -48,7 +48,7 @@ prompt=["""
         the sql command will be something like 
         SELECT * FROM STUDENT WHERE CLASS='Data Science';
         also the sql code should not have ''' in the begining or end and 
-        sal words in small"""]
+        query should not be in small letters"""]
 
 ## Streamlit app
 st.set_page_config(page_title="Text to SQL LLM Application", page_icon=":guardsman:", layout="wide")
